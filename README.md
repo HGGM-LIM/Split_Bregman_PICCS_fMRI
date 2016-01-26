@@ -1,1 +1,1 @@
-# Split_Bregman_PICCS
+# Split_Bregman_PICCS_fMRI
