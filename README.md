@@ -10,14 +10,13 @@ The Split Bregman method separates L2- and L1-norm functionals in such a way tha
 
 The demo uses cardiac cine small-animal data to simulate an undersampling pattern based on a variable density pdf and compare Spatial TV with Spatiotemporal TV. Both methods are efficiently solved with a computational cost of three FFT per iteration. 
 
-![fMRI dataset]()
+![Statistical map](https://github.com/HGGM-LIM/Split_Bregman_PICCS_fMRI/blob/master/map_full_p_0_01_k_12.tif)
+![Time course at max](https://github.com/HGGM-LIM/Split_Bregman_PICCS_fMRI/blob/master/timecourse.tif)
 
 The repository contains the following files:
 
 - **fMRI_64x64x115_image.mat:** Absolute image of the central slice of a rat fMRI dataset (115 time frames, healthy rat)
 (Acquired data can be found at http://biig.uc3m.es/fmri_rat_data/)
-
-- **full_5slices_kspace.mat:** Raw complex data of the complete dataset, 5 slices, 4 coils 64x64x5x115x4, float 
 
 - **map_full_p_0_01_k_12.tif:** Resulting statistical map from the fully sampled dataset
 
