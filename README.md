@@ -27,7 +27,7 @@ The repository contains the following files:
 
 - **PICCS_fMRI.m:** PICCS solved using the Split Bregman formulation
 
-- ** genRAll.m:** Loop to generate a different sampling patterns for each time point, so that sampling is also pseudo-random along time
+- **genRAll.m:** Loop to generate a different sampling patterns for each time point, so that sampling is also pseudo-random along time
 
 - **genPDF.m:** Function to generate a pdf with polynomial variable density sampling, by Michael Lustig 2007, downloaded from (SparseMRI V0.2), http://web.stanford.edu/~mlustig/SparseMRI.html, see M. Lustig, D.L
 
