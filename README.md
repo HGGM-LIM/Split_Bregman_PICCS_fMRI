@@ -6,6 +6,7 @@ This repository contains a demo that shows how to use PICCS, which is efficientl
 **Chavarrias, C., Abascal, J.F., Montesinos, P. and Desco, M.,"Exploitation of temporal redundancy in compressed sensing reconstruction of fMRI studies with a prior-based algorithm (PICCS)". Med Phys,  42(7): p. 3814 (2015).** 
 DOI:% http://dx.doi.org/10.1118/1.4921365
 
+![The algorithm] (https://github.com/HGGM-LIM/Split_Bregman_PICCS_fMRI/blob/master/PICCSec.jpg)
 The Split Bregman method separates L2- and L1-norm functionals in such a way that they can be solved analytically in two alternating steps. In the first step a linear system is efficiently solved in the Fourier domain, which can be done in MRI and image denoising problems where operators have representation in the Fourier domain. The computational cost is three FFT per iteration. 
 
 The demo uses fMRI small-animal data to simulate an undersampling pattern based on a variable density pdf. 
